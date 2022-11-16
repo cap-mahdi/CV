@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h3>Hobbies</h3>
+    <ol type="i" ><!--ordered list + type to be ordered by-->
+      <li>football</li>
+      <li>programming</li>
+      <li>volleyball</li>
+    </ol>
+    <h3>contact me</h3>
+    <form class="" action="index.html" method="post"><!-- contain what should go in the form-->
+      <label for="">your name</label><!---->
+      <input type="text"  value="mahdi chaabane" maxlength="5"><!--the type of input-->
+      <input type="color" name="" value=""><br>
+      <label for="">password</label>
+      <input type="password" name="" value=""> <br>
+      <label for="">do you want to check the email</label>
+      <input type="checkbox" name="" value="">
+      <input type="submit" name="" value="submitt"><!--in this case it takes to index.html that is put in axtion-->
+
+      <h3><a href="other_types.html">other types</a> </h3>
+
+    </form>
+    <h2>contact me for real</h2>
+    <form enctype="text/plain" action="mailto:mahdi02ch@gmail.com" method="post"><!--just try it :p it prapares a message to that esmail which containt the email-->
+      <!--the enctype , the ecnoding system -->
+      <label for="">your name</label>
+      <input type="text" name="youName" value=""><br><!--name identirfy the data in this input + can see the result in the email faza-->
+      <label for="">email</label>
+      <input type="email" name="yourEmail" value=""> <br><!--it checks if the input is valise or not and can prevent from sending it-->
+      <label for="">your message</label>
+      <textarea name="yourMessage" rows="5" cols="30"></textarea><!--rows determine how tall your textarea should be and cols how wide they should be-->
+      <!--by default you can adjust it-->
+      <br>
+      <input type="submit" name="" >
+    </form>
+  </body>
+</html>

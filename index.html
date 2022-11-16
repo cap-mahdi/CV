@@ -1,0 +1,104 @@
+<!DOCTYPE html><!--indicates the version oh html which is  =5 in this case so the browser know how to render it-->
+<html lang="en" dir="ltr"><!--everything between these two tags is html fil-->
+
+<head><!-- part that holdes info about the web page and tells the browser how to handle the page-->
+  <meta charset="utf-8">
+  <!--the meta element  give extra meta data to your html doc. in this case we tell the browser that all the texts in this webpage are encoded using the utf-8 encoding system , you can check all the char available in google, it is like unicode, it includes also emojis. ! it ensures maximum capability -->
+  <!--another attribute which is name
+      name ="description" content="what your site does"
+      it is used for search engines, and it shows when under the site from the outside after googling it
+  -->
+  <title>Mahdi chaabane's personal site</title>
+</head>
+
+<body>
+  <!-- ctr + R for refresh -->
+  <!--identation is very important, use package autom_beautify-->
+  <table cellspacing="20"> <!--space between columns-->
+    <tr>
+      <td> <img src="images/mahdi.jpg" alt="Photo of me"></td>
+      <td>
+        <h1>Mahdi Chaabane</h1>
+        <p><em>INSAT <strong>Student</strong></em></p>
+        <p>I am a C++ developer and I love Messi</p>
+        <hr>
+      </td>
+    </tr>
+  </table>
+  <img src="images/mahdi.jpg"
+    alt="Photo of me"><!--src can be an url(use PHOTOBUCKET website to get url for your photos) or an image from your pc+ alt is used to describe the image in case the browser cannot render it, it uses also for  search engines-->
+  <!--use CROP Circle.image.online to make a circle in the photo-->
+  <h1>Mahdi Chaabane</h1>
+  <p><em>INSAT <strong>Student</strong></em></p><!--paragraph-->
+  <!--<<em></em> make the word stressed, for search engines
+      <<i></i> only for styling,not the html role
+      <strong></strong> same for <em></em>
+      <<b></b> same for <i></i>
+
+  -->
+
+  <p>I am a C++ developer and I love Messi</p>
+  <hr> <!-- horizental rule-->
+  <h3>Education and lists of all the schools I've attended</h3>
+  <ul><!--unordered list-->
+    <li>College hbib bourguiba</li><!--list item -->
+    <li>Lycee hbib maazoun</li>
+    <ul>
+      <li>2eme seance</li>
+      <li>bac math</li>
+    </ul>
+  </ul>
+  <a href="hobbies.html">My hobbiew</a>
+  <a href="http://www.insat.rnu.tn/Fr/accueil_46_34">insat</a><!--anchor the H part of HTML + href te destination of the link-->
+  <!--the link is blue if we never clicked it before and purple if we've already cliked it -->
+  <hr>
+  <h3>work experience</h3>
+  <table border="5" cellspacing=5><!--column structured and indented simarally-->
+    <thead><!--add some tittle for columns and they get bold by default-->
+      <!--you dont have to implement the thead but it is useful in css to style the header and not the body-->
+      <tr>
+        <th>Dates</th><!--header-->
+        <th>work</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr> <!--table row, it is very necessary without it it wont be considered as a table row-->
+        <td>2010-2013</td><!--table cell which contain table data+ is the date should be in in td which is in td to be considered as cell-->
+        <td>bleda w rkeka</td>
+      </tr>
+      <tr>
+        <td>2010</td>
+        <td>messi</td>
+      </tr>
+    </tbody>
+    <tfoot><!---->
+      <tr>
+        <th>Dates</th><!--header-->
+        <th>work</th>
+      </tr>
+    </tfoot>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing=2><!--Nested table-->
+    <tr>
+      <td>c++</td>
+      <td>❤❤❤</td>
+    </tr>
+    <tr>
+      <td>java</td>
+      <td>❤</td>
+    <tr>
+      <td>football</td>
+      <td>❤</td>
+    </tr>
+    <tr>
+      <td>volleyball</td>
+      <td>❤❤❤❤❤❤</td>
+    </tr>
+  </table>
+</body>
+
+</html>
+<!-- try alwyas to look for other attributes -->
+<!--try to understand what each line does -->
